@@ -15,10 +15,11 @@ html, body{
 }
 body{
 	/* background:#FFFFFF; */
+	background: url(../images/bg.png) no-repeat 0px 0px;
 }
 /*-- banner --*/
 .page-wrap{
-	background: url(../images/bg.png) no-repeat 0px 0px;
+	/* background: url(../images/bg.png) no-repeat 0px 0px; */
 	background-size: cover;
 }
 .banner{
