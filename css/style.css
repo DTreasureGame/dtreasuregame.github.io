@@ -18,7 +18,8 @@ body{
 }
 /*-- banner --*/
 .page-wrap{
-	background: url(../images/bg.png) no-repeat 0px 0px;
+	/*background: url(../images/bg.png) no-repeat 0px 0px;*/
+    background-color: black;
 	background-size: cover;
 }
 .banner{
@@ -145,6 +146,7 @@ body{
     float: none !important;
     margin-right: -15px;
     text-align: center;
+    font-size: 22px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #99abd5;
@@ -313,7 +315,7 @@ body{
 	background: linear-gradient(90deg, #FFDE58 1%, #BA931F 100%);
 }
 .agileits_welcome_grid_left h3,.agileits_welcome_grid_right h3,.services h3,.gallery h3,.testimonial h3,.updates h3,.team h3,.wthree-subscribe h3,.contact h3{
-    font-size: 3em;
+    font-size: 2em;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -321,12 +323,12 @@ body{
 .agileits_welcome_grid_left p,.agileits_welcome_grid_right p{
     margin: 1em 0 0em;
 		font-size: 14px;
-		font-family: Adobe Heiti Std;
+		font-family: Helvetica, Arial, sans-serif;
 		font-weight: normal;
 		color: #919191;
 		line-height: 30px;
 		width: 262px;
-		text-align: right;
+		text-align: left;
 }
 .agileits_welcome_grid_left p i{
 	display:block;
@@ -560,7 +562,7 @@ img.img-responsive {
 	color: #FFFFFF;
 	text-align:center;
 	font-size: 3em;
-	font-family: Adobe Heiti Std;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	color: #FFFFFF;
 	margin: 1em 0;
@@ -616,14 +618,14 @@ img.img-responsive {
 } */
 .road-item h4{
 	font-size: 1em;
-font-family: Adobe Heiti Std;
-font-weight: normal;
-color: #FFFFFF;
-line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 1.5;
 }
 .road-item>p{
 	font-size: 0.7em;
-	font-family: Adobe Heiti Std;
+	font-family: Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	color: #D1D0CC;
 }
@@ -662,6 +664,7 @@ i.fa.fa-quote-right {
 .testimonial-top p {
     color: #ffffff;
     font-size: .9em;
+		display: inline-block;
     line-height: 2em;
     margin: 2em auto;
     width: 81%;
@@ -750,10 +753,13 @@ i.fa.fa-quote-right {
 .callbacks_nav.next {
     left: auto;
     background-position: right top;
+		top:50%;
+
     right: 0;
  }
  .callbacks_nav.prev {
     right: auto;
+		top:50%;
     background-position: left top;
     left: 0;
 }
@@ -1444,7 +1450,7 @@ p.address {
 	
 	i#jzBoxClose {
 	    top: 30px;
-		left: 362px;
+		left: 262px;
 		position: absolute;
 		font-size: 2em;
 	}
